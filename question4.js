@@ -18,5 +18,5 @@
         }
     }
     let score=74;
-    console.log(name + gradesObtained(score));
+    console.log(name + 'score'+ gradesObtained(score));
     

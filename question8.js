@@ -1,4 +1,4 @@
-var string=process.argv[2]
+var string="pparnneeett"
 function removeDuplicates(array) {
     var newarray=[];
     for(i=0;i<array.length;i++){
@@ -6,12 +6,12 @@ function removeDuplicates(array) {
             newarray.push(array[i]);
         }
     }
-    return array.filter((a, b) => array.indexOf(a) === b)
+    return newarray;
     
   };
   var newarray=removeDuplicates(string);
   console.log(string);
-  console.log(removeDuplicates);
+  console.log(newarray);
   
   
 
